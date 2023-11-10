@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Agdasima">
+    <link href="https://fonts.google.com/specimen/Agdasima" rel="style sheet"> 
+
+</head>
+<body>
+    <style>
+        .hero{
+            height: 190vh;
+            width: 100%;
+            background-image: url(Media/SS.png);
+            background-size:cover;
+            background-position:center;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 45px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+        .logo{
+            color:white;
+            font-size: 35px;
+            letter-spacing: 1px;
+            cursor: pointer;
+
+        }
+        .nice
+        {
+            color: #5bd04b;
+           font-size:large;
+           padding-left: 7%;
+        }
+        span{
+            color: #c61175;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 10px 25px;
+
+        }
+        nav ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+    </style>
+    
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Pro<span class="input">file</span></h2>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="SHINE.html">About Us</a></li>
+                <li><a href="simpleweb.html">Skills</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+
+            </ul>
+        </nav>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings:["filo","filo"],
+            typeSpeed: 70,
+            backSpeed: 65,
+            loop:true
+        })
+    </script>
+    </div>
+</body>
+</html>
